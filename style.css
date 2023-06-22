@@ -1,0 +1,209 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #282828;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	margin: 0 auto;
+	padding: 0;
+}
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+.content{
+	max-width: 1920px;
+	margin: auto;
+}
+.container{
+	display: flex;
+	height: 44px;
+	max-width: 1440px;
+	margin: 0 auto;
+	margin-top: 47px;
+	margin-left: 232px;
+	margin-right: 232px;
+	/**background-color: red;**/
+}
+.tmir{
+	margin-left: 13px;
+}
+.source{
+	width: 438px;
+	height: 44px;
+	margin-left: 67px;
+	border: 2px solid #78B9FF;
+	background-color: #fff;
+	border-radius: 40px;
+}
+.in_text{
+	margin-top: 7px;
+	border-radius: 40px;
+	padding-left: 13px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	border: none;
+    outline: none;
+    -webkit-appearance: none;
+    width: 274px;
+    vertical-align: middle;
+}
+.in_text::placeholder{
+	color: #282828;
+}
+.in_text:focus{
+	outline: 0;
+	outline-offset: 0;
+}
+.in_text:hover{
+	cursor: pointer;
+}
+.source_click{
+	padding-bottom: 3px;
+	float: right;
+	height: 42px;
+	width: 145px;
+	background-color: #78B9FF;
+	border: none;
+	border-radius: 20px;
+}
+.source_text{
+	font-weight: 500;
+	float: left;
+	margin-left: 13px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+.container ul{
+	float: left;
+	margin-left: 25px;
+}
+.container li{
+	list-style-type: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 500;
+	float: left;
+}
+.container .p{
+	margin-left: 59px;
+}
+.ava{
+	width: 44px;
+	height: 44px;
+	border-radius: 50px;
+}
+.ava_but{
+	width: 44px;
+	height: 44px;
+	border-radius: 50px;
+	background-color: transparent;
+	border: 1px solid #78B9FF;
+	margin-left: 68px;
+}
+.container_two{
+	float: left;
+	margin-left: 232px;
+	margin-top: 52px;
+	width: 270px;
+	height: 578px;
+	/*background-color: red;*/
+}
+.container_two .spisok{
+	list-style-type: none;
+	display: block;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.container_two .spisok li{
+	margin-bottom: 31.3px;
+	margin-left: -3px
+}
+.blue_cube{
+	width: 15px;
+	height: 20px;
+	background-color: #78B9FF;
+	float: left;
+	
+}
+.container_two .spisok{
+	letter-spacing: 0px;
+}
+.catalog_p{
+	margin-left: 21px;
+	font-size: 24px;
+	font-weight: 600;
+	padding: 0;
+	margin-bottom: 28px;
+	margin-top: -5px;
+}
+.icon_spisok{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.container_icon_spisok{
+	width: 24px;
+	height: 521px;
+	margin-left: -39px;
+	float: left;
+}
+.container_tovar{
+	margin-top: 52px;
+	display:flex;
+  	margin-left: 56px;
+	width: 1114px;
+	overflow: hidden;
+}
+.tovar_p{
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 44px;
+	float: left;
+	margin-left: 56px;
+}
+.full_tovar{
+	float: left;
+	display: block;
+	width: 1114px;
+	height: 3014px;
+}
+.tovar{
+	position: relative;
+	transition: all ease 0.5s;
+	display: flex;
+	width: 226px;
+	height: 323px;
+	border-radius: 10px;
+	background-color: #D9D9D9;
+	margin-left: 55px;
+}
+.tovar_one{
+	width: 226px;
+	height: 323px;
+	border-radius: 10px;
+	background-color: #D9D9D9;
+}
+.tovars{
+	width: 1124px;
+	display: flex;
+	overflow: hidden;
+  	position: relative;
+  	transition: all ease 0.5s;
+}
+.tovar, .tovar_one{
+	min-width: 226px;
+	flex: 0 0 auto;
+}
+.slide_svg{
+	margin-top: 142px;
+	height: 31px;
+	background-color: transparent;
+	border-color: transparent;
+	float: right;
+}
+.marg{
+	margin-top: 50px;
+}
